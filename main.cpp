@@ -37,7 +37,7 @@ int main(){
         }
 
         for(int i = 0; i < ids.size(); i++){
-            cells[ids[i]].live(cells); //If I go this in the previous loop it caused memory errors
+            cells[ids[i]].live(cells); //If I do this in the previous loop it caused memory errors
         }
 
         cout << "Number of cells: " << cells.size() << endl;
